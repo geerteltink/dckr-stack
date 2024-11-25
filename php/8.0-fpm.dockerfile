@@ -1,4 +1,4 @@
-FROM php:8.0-fpm-alpine
+FROM php:8.4-fpm-alpine
 
 RUN set -xe \
     && : "---------- Fix possible vulnerabilities ----------" \
